@@ -27,3 +27,8 @@ print(numbers)
 numbers = [1,2,3,4,5,6]
 numbers.pop(2)
 print(numbers)
+# Remove function in list
+# Remove function will delete the element in a list
+numbers = [1,3,5,7,8,10]
+numbers.remove(10)
+print(numbers)
