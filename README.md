@@ -32,3 +32,7 @@ print(numbers)
 numbers = [1,3,5,7,8,10]
 numbers.remove(10)
 print(numbers)
+import calendar
+yy = 2024
+mm = 7
+print(calendar.month(yy,mm))
