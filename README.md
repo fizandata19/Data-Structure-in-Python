@@ -37,4 +37,9 @@ yy = 2024
 mm = 7
 print(calendar.month(yy,mm))
 #List 
-
+# Write a program to store seven fruits in a list entered by the user.
+fruit_Name = []
+user_Input = input("Enter Fruit Name: ")
+fruit_Name.append(user_Input)
+print(fruit_Name)
+print(len(fruit_Name))
