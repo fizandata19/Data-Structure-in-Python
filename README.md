@@ -43,3 +43,6 @@ user_Input = input("Enter Fruit Name: ")
 fruit_Name.append(user_Input)
 print(fruit_Name)
 print(len(fruit_Name))
+# Write a program to count the number of zeros in the following tuple:
+tuple1 = (7, 0, 8, 0, 0, 9)
+print(tuple1.count(0))
